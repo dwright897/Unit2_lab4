@@ -1,0 +1,14 @@
+When adding matrices, what must be true about the matrices in order for the addition to be successful?
+They have to be the same rows and columns, like 3x3 and 3x3. 
+
+When multiplying matrices, what must be true about the matrices in order for the multiplication to be successful?
+The rows of one has to be the same as the columns of the ohter. 3x2 and 2x3. They both have a 2 on the inside.
+
+When multiplying matrices, what information can we use to determine the size of the resulting matrix?
+the 3s from above tell us the new one will be a 3x3.
+
+When working with matrices we need to use nested loops. During matrix multiplication, how many iterations does the outer loop need to complete? What about the inner loop? Relate your responses to the size of some matrices A and B.
+the outer loop would run r times for the rows and the inner loop would run c times for the column 
+
+When populating your solution matrix, we will need to move between rows and columns effortlessly while never exceeding the dimensions of the matrix. What tool can we use to prevent our indexes from exceeding the bounds of the matrix?
+we can use the size of the matrix using the len function. 
